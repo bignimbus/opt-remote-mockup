@@ -18,6 +18,10 @@ img {
   max-width: 100%;
 }
 
+select {
+  display: block;
+}
+
 p,
 h2,
 h3 {
