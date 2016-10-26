@@ -224,3 +224,27 @@ h3 {
   text-decoration: underline;
 }
 
+.dropdown {
+  font-size: 20px;
+  margin: 8px auto;
+  width: 50%;
+}
+
+.dropdown-label {
+  font-size: 20px;
+}
+
+.radio {
+  font-size: 20px;
+  margin: 0 4px 0 16px;
+}
+
+.radio:first-child {
+  margin-left: 0;
+}
+
+.radio,
+.radio-label {
+  height: 24px;
+  vertical-align: middle;
+}
