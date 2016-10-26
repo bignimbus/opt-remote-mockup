@@ -1,0 +1,79 @@
+:root {
+  --bg-color: rgb(32, 31, 26);
+  --bg-dark: rgb(26, 25, 29);
+  --primary-color: #fff;
+  --brand-color: #2075da;
+  --overlay-color: rgba(32, 31, 36);
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--primary-color);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.button {
+  background: var(--brand-color);
+  border: 0;
+  border-radius: 3px;
+  color: var(--primary-color);
+  outline: 0;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  width: 100%;
+}
+
+.global-action-region {
+}
+
+.overlay-background {
+  background: var(--overlay-color);
+  opacity: .6;
+}
+
+.overlay {
+  background: var(--overlay-color);
+}
+
+.remote-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+  justify-content: space-between;
+  width: 100%;
+}
+
+.remote-container__section {
+  box-sizing: border-box;
+  flex: 0 1 86%;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.remote-container__main {
+  padding: 10%;
+}
+
+.remote-container__top,
+.remote-container__bottom {
+  background: var(--bg-dark);
+  flex: 0 1 7%;
+}
+
+.remote-container__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.remote-container__item {
+  border-bottom: 1px solid #dedede;
+  border-top: 1px solid #dedede;
+}
