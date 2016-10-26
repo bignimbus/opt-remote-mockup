@@ -229,8 +229,8 @@ h3 {
 }
 
 .content-container__grid {
-  flex: 0 1 30%;
-  height: 30%;
+  flex: 0 1 200px;
+  height: 200px;
   margin: 0 auto;
   width: 50%;
 }
