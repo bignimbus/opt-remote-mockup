@@ -52,6 +52,13 @@ h3 {
   width: 60%;
 }
 
+.button--tertiary {
+  background: var(--bg-dark);
+  font-size: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 .button--row-item {
   display: block;
   flex: 0 1 50%;
@@ -62,6 +69,21 @@ h3 {
 
 .button--row-item:first-child {
   margin-left: 0;
+}
+
+.button--row-item:nth-child(0n + 2) span {
+  display: block;
+  transform: rotate(90deg);
+}
+
+.button--row-item:nth-child(0n + 3) span {
+  display: block;
+  transform: rotate(180deg);
+}
+
+.button--row-item:nth-child(0n + 4) span {
+  display: block;
+  transform: rotate(270deg);
 }
 
 .overlay-background {
@@ -158,3 +180,8 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
+
+.content-container__buttons--symbols:nth-child(0n + 1) {
+  text-decoration: underline;
+}
+
