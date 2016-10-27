@@ -10,7 +10,7 @@
 body {
   background: var(--bg-color);
   color: var(--primary-color);
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;;
   margin: 0;
   padding: 0;
 }
@@ -28,6 +28,7 @@ select {
 p,
 h2,
 h3 {
+  font-weight: normal;
   margin: 0;
 }
 
@@ -50,6 +51,7 @@ h3 {
 
 .button--secondary {
   background: var(--bg-dark);
+  border-radius: 10px;
   color: var(--brand-color);
   display: block;
   font-size: 14px;
@@ -95,8 +97,7 @@ h3 {
 
 .button--grid-item {
   margin: 0;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 8px 16px;
   position: absolute;
   transform: translate(-50%, -50%);
 }
@@ -165,7 +166,7 @@ h3 {
 .remote-container__main {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 15%;
 }
 
@@ -229,8 +230,8 @@ h3 {
 }
 
 .content-container__grid {
-  flex: 0 1 120px;
-  height: 120px;
+  flex: 0 1 100px;
+  height: 100px;
   margin: 0 auto;
   width: 50%;
 }
